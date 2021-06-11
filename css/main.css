@@ -1,0 +1,137 @@
+.body {
+    margin: 0;
+}
+
+.navbar {
+    margin-top: 0;
+}
+
+.navbar {
+    height: 76px;
+    background-size: cover;
+    background-color: F8F1F1;
+    opacity: 0.4;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   
+}
+
+.navbar ul{
+list-style: none;
+padding: none;
+}
+
+
+.navbar input {
+width: 170px;
+height: 44px;
+background-color: 3EB6E1;
+}
+
+.navbar_left ul li{
+float: left;
+display: inline-block;
+margin-right: 48px;
+margin-top: 18px;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar_right ul li {
+    float: right;
+    display: inline-block;
+    margin: 16px;
+    
+}
+
+.navbar_right input {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: white;
+
+
+}
+
+.navbar_left ul li.active{
+    color: 0799BE;
+} 
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url(../img/webplunder-background-image-technology-online-website-solutions.jpg);
+                             
+}
+
+.centerPush {
+    position:absolute;
+    top: 30%;
+    margin-left: 10%;
+}
+
+ .hero .centerPush h1 {
+     font-size: 100px;
+     font-family: 'Fredericka the Great', cursive;
+     margin: 0;
+
+ }  
+
+ .hero .centerPush h4 {
+     font-size: 48px;
+     font-family: 'Freckle Face', cursive;
+     margin-top: 0;
+     
+ }
+
+ .hero .centerPush input {
+     width: 240px;
+     height: 68px;
+     background-color: 8FE8EC;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     border: none;
+     margin-right: 30px;
+ }
+
+    .projects h1{
+     text-align: center;
+}
+
+.projects .container{
+    width: 100%;
+    max-width: 1012px;
+    position: relative;
+    box-align: center;
+    margin: 0%, auto;
+}
+
+.projects .container .projects_left, .projects .container .projects_right {
+    float: left;
+    width: 50%;
+}
+
+.projects_left img, .projects_right img{
+    border: 1px solid white;
+    box-shadow: 2px 2px 15px aqua;
+    border-radius: 30px;
+    margin: 100px 100px;
+}
+
+.projects_left .left .Brainster { 
+    padding: 240px, 34px;
+}
+   
+.socialmedia ul {
+    list-style: none;
+    display: inline;
+}
+
+.contact_container .contact{
+    width: 30%;
+    float: left;
+}
